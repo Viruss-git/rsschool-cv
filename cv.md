@@ -1,7 +1,7 @@
 # Sergei Marmysh
 ***
 ### Contact information:
-Phone: +375 25 971-300-01
+Phone: +375 25 971-30-01
 Discord: Viruss#6122
 Telegram: @Viruss13k
 E-mail: MarmyshMD@gmail.com
