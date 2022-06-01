@@ -50,7 +50,7 @@ function duplicateEncode(word){
 function invert(array) {
     let resultArray = [];
     for (let i = 0; i < array.length; i++) {
-        (array[i] > 0) ? resultArray[i] = array[i] * -1 : resultArray[i] = array[i] * -1; // Тернарный оператор
+        (array[i] > 0) ? resultArray[i] = array[i] * -1 : resultArray[i] = array[i] * -1;
     }
     return resultArray;
 }
