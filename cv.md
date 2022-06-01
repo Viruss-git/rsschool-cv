@@ -29,7 +29,7 @@ I hope that my ability to absorb large amounts of information will help me becom
 | JS        	|  +  	|        	|               	|           	|
 | lua       	|  +  	|        	|               	|           	|
 | Larawel   	|  +  	|        	|               	|           	|
-| SASS/LASS 	|     	|        	|               	|           	|
+| SASS/LASS 	|  +   	|        	|               	|           	|
 ***
 
 ### Code example:
