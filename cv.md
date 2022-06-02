@@ -82,6 +82,8 @@ function abbrevName(name){
 6. \[Udemy] The Complete JavaScript Course + React 2021 (online)
 7. \[WebForMySelf] Bootstrap Framework, Responsive Layout Practice from A to Z (online)
 8. Laravel framework. Zero to Pro (online)
+9. I learn Front-End Development in **RSSchool**! JS/FE Pre-School 2022Q2
+10. Grodno State Medical University - _cardiovascular surgeon_
 
 
 ### Languages:
