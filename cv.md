@@ -1,13 +1,10 @@
 # Sergei Marmysh
 ***
 ### Contact information:
-Phone: +375 25 971-30-01
-
-Discord: Viruss#6122
-
-Telegram: @Viruss13k
-
-E-mail: MarmyshMD@gmail.com
+* Phone: +375 25 971-30-01
+* Discord: Viruss#6122
+* Telegram: @Viruss13k
+* E-mail: MarmyshMD@gmail.com
 
 [LinkedIn](https://www.linkedin.com/in/sergei-marmysh-870851232/)
 
@@ -63,6 +60,17 @@ function invert(array) {
 }
 ```
 ***
+
+### Education and courses:
+1. Internship PHP developer, IntexSoft 2016
+2. Front End Developer, TeachMeSkills (start jule 2022)
+3. JS, CSS, HTML, Git video courses on YouTube
+4. HTML academy [https://htmlacademy.ru/courses]
+5. Codecademy [https://www.codecademy.com/learn/learn-html]
+6. \[Udemy] The Complete JavaScript Course + React 2021 (online)
+7. \[WebForMySelf] Bootstrap Framework, Responsive Layout Practice from A to Z (online)
+8. Laravel framework. Zero to Pro (online)
+
 
 ### Languages:
 * **Russian** - _native speaker_
