@@ -5,8 +5,7 @@
 * Discord: Viruss#6122
 * Telegram: @Viruss13k
 * E-mail: MarmyshMD@gmail.com
-
-[LinkedIn](https://www.linkedin.com/in/sergei-marmysh-870851232/)
+* [LinkedIn](https://www.linkedin.com/in/sergei-marmysh-870851232/)
 
 ***
 
@@ -59,6 +58,20 @@ function invert(array) {
     return resultArray;
 }
 ```
+
+**Abbreviate a Two Word Name (CODEWARS):** _Write a function to convert a name into initials. This kata strictly takes two words with one space in between them. The output should be two capital letters with a dot separating them._
+```
+function abbrevName(name){
+    let nameArray = name.trim().split(' ');
+    let initialsArray = [];
+    for (i = 0; i < nameArray.length; i++) {
+        initialsArray[i] = nameArray[i][0];
+    }
+    let result = initialsArray.join('.').toUpperCase();
+    return result;
+}
+```
+
 ***
 
 ### Education and courses:
