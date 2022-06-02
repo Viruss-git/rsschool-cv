@@ -26,7 +26,7 @@ I hope that my ability to absorb large amounts of information will help me becom
 
 ### Skills:
 | skills    	| low 	| medium 	| above average 	| god level 	|
-|-----------	|-----	|--------	|---------------	|-----------	|
+|---------------|-------|-----------|-------------------|---------------|
 | HTML      	|     	|    +   	|       +       	|           	|
 | CSS       	|     	|    +   	|       +       	|           	|
 | BOOTSTRAP 	|     	|    +   	|       +       	|           	|
