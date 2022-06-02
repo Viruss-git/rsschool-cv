@@ -21,17 +21,16 @@ I hope that my ability to absorb large amounts of information will help me becom
 ***
 
 ### Skills:
-| skills    	| low 	| medium 	| above average 	| god level 	|
-|---------------|-------|-----------|-------------------|---------------|
-| HTML      	|     	|    +   	|       +       	|           	|
-| CSS       	|     	|    +   	|       +       	|           	|
-| BOOTSTRAP 	|     	|    +   	|       +       	|           	|
-| PHP       	|     	|    +   	|               	|           	|
-| JQ        	|     	|    +   	|               	|           	|
-| JS        	|  +  	|        	|               	|           	|
-| lua       	|  +  	|        	|               	|           	|
-| Larawel   	|  +  	|        	|               	|           	|
-| SASS/LASS 	|  +   	|        	|               	|           	|
+
+* HTML          - 5/10
+* CSS           - 6/10
+* BOOTSTRAP     - 6/10
+* PHP           - 5/10
+* JQ            - 5/10
+* JS            - 2/10
+* lua           - 3/10
+* Larawel       - 2/10
+* SASS/LASS     - 4/10
 
 ***
 
@@ -78,8 +77,8 @@ function abbrevName(name){
 1. Internship PHP developer, IntexSoft 2016
 2. Front End Developer, TeachMeSkills (start jule 2022)
 3. JS, CSS, HTML, Git video courses on YouTube
-4. HTML academy [https://htmlacademy.ru/courses]
-5. Codecademy [https://www.codecademy.com/learn/learn-html]
+4. HTML academy (https://htmlacademy.ru/courses)
+5. Codecademy (https://www.codecademy.com/learn/learn-html)
 6. \[Udemy] The Complete JavaScript Course + React 2021 (online)
 7. \[WebForMySelf] Bootstrap Framework, Responsive Layout Practice from A to Z (online)
 8. Laravel framework. Zero to Pro (online)
