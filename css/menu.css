@@ -6,34 +6,40 @@
     right: 0;
     left: 0;
     z-index: 1030;
-  }
-  
-  .nav {
-    float: right;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     height: 65px;
-  }
-  
-  .navbar li {
-    line-height: 65px;
-  }
-  
-  ul.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.navbar {
     list-style: none;
     margin: 0;
     padding-left: 0;
     display: flex;
-  }
-  
-  ul.navbar li {
+}
+
+ul.navbar li {
     padding-right: 25px;
     display: inline;
-  }
-  
-  li.item-nav {
+}
+
+li.item-nav {
     color: aliceblue;
-  }
-  
-  /* TOP MENU*/
+}
+
+/* TOP MENU*/
+
+/* URL STYLE */
+
+.navbar a {
+    text-decoration: none;
+    color: azure;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
