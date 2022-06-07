@@ -135,9 +135,22 @@ label {
   font-size: 1rem;
 }
 
-li.progress {
-  align-items: center;
+progress {
+  border-radius: 8px; 
+  width: 250px;
+  height: 12px;
 }
+
+progress::-webkit-progress-bar {
+  background-color: rgb(230, 230, 230);
+
+}
+
+progress::-webkit-progress-value {
+  background-color: rgb(104, 104, 104);
+
+}
+
 
 /* SKILLS BLOCK*/
 

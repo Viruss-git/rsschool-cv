@@ -49,9 +49,9 @@ li.item-nav {
     background:
       linear-gradient(
         to left, 
-        rgba(92,7,52,1) 0%,
-        rgba(255,93,177,1) 47%,
-        rgba(83,0,30,1) 100%
+        rgb(75, 5, 42) 0%,
+        rgb(252, 55, 157) 50%,
+        rgba(75, 5, 42) 100%
       )
       left 
       bottom  
