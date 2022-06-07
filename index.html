@@ -15,78 +15,259 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="navigation-fixed-top">
-            <div class="container">
-                <nav class="nav">
-                    <ul class="navbar">
-                        <li class="item-nav"><a href="#home">HOME</a></li>
-                        <li class="item-nav"><a href="#about-me">ABOUT ME</a></li>
-                        <li class="item-nav"><a href="#skills">SKILLS</a></li>
-                        <li class="item-nav"><a href="#code-example">CODE EXAMPLE</a></li>
-                        <li class="item-nav"><a href="#education-and-couses">EDUCATION AND COURSES</a></li>
-                        <li class="item-nav"><a href="#languages">LANGUAGES</a></li>
-                    </ul>
-                </nav>
+            <div class="border-wrap">
+                <div class="container">
+                    <nav class="nav">
+                        <ul class="navbar">
+                            <li class="item-nav"><a href="#home">HOME</a></li>
+                            <li class="item-nav"><a href="#about-me">ABOUT ME</a></li>
+                            <li class="item-nav"><a href="#skills">SKILLS</a></li>
+                            <li class="item-nav"><a href="#code-example">CODE EXAMPLE</a></li>
+                            <li class="item-nav"><a href="#education-and-couses">EDUCATION AND COURSES</a></li>
+                            <li class="item-nav"><a href="#languages">LANGUAGES</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
         <div id="home" class="banner-full">
-            <div class="container">
-
+            <div class="welcome">
+                <div class="typewriter">
+                    <h3>Hi! Welcome to my CV</h3>
+                </div>
+                <div class="typewriter">
+                    <h1>I'm Sergei Marmysh</h1>
+                </div>
             </div>
+
+            <a class="scroll" href="#about-me">
+                <span class="mouse">
+                    <span class="mouse-buttom"></span>
+                </span>
+            </a>
+
         </div>
-    </div>
-    <div class="main">
-        <div class="container">
-            <div id="about-me">
-                <p> I am a practicing cardiac surgeon. Since 2010, I started to get involved in creating primitive sites
-                    using only HTML in CSS.
-                    While studying at the medical university, I continued my hobby, and in 2012 I started learning PHP.
+    </header>
+    <main class="main">
+        <div class="container main-container">
+
+            <section id="about-me" class="section">
+                <div class="section-title">
+                    <h2>ABOUT ME</h2>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="about-me">
+                            <p> I am a practicing cardiac surgeon. Since 2010, I started to get involved in creating
+                                primitive
+                                sites
+                                using only HTML in CSS.
+                                While studying at the medical university, I continued my hobby, and in 2012 I started
+                                learning
+                                PHP.
+                            </p>
+
+                            <p>In 2016, I was selected for an internship at INTEXSOFT, which I could not complete,
+                                because chose
+                                medicine.
+                                Having been doing freelancing for the past few years, I decided to change direction and
+                                move
+                                from
+                                practical medicine to programming.</p>
+
+                            <p>I hope that my ability to absorb large amounts of information will help me become a good
+                                Frontend
+                                developer.</p>
+                        </div>
+                    </div>
+                    <div class="col-3 avatar">
+                        <div class="avatar"><img src="assets/img/avatar.png" alt="avatar"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="about-me">
+                            <p> I am a practicing cardiac surgeon. Since 2010, I started to get involved in creating
+                                primitive
+                                sites
+                                using only HTML in CSS.
+                                While studying at the medical university, I continued my hobby, and in 2012 I started
+                                learning
+                                PHP.
+                            </p>
+
+                            <p>In 2016, I was selected for an internship at INTEXSOFT, which I could not complete,
+                                because chose
+                                medicine.
+                                Having been doing freelancing for the past few years, I decided to change direction and
+                                move
+                                from
+                                practical medicine to programming.</p>
+
+                            <p>I hope that my ability to absorb large amounts of information will help me become a good
+                                Frontend
+                                developer.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <div class="section-title">
+                    <h2>SKILLS</h2>
+                </div>
+                <ul>
+
+                    <li><label for="html">HTML:</label>
+                        <progress id="html" max="100" value="70"> 70% </progress>
+                    </li>
+
+                    <li><label for="css">CSS:</label>
+                        <progress id="css" max="100" value="65"> 70% </progress>
+                    </li>
+
+                    <li><label for="bootstrap">BOOTSTRAP:</label>
+                        <progress id="bootstrap" max="100" value="65"> 70% </progress>
+                    </li>
+
+                    <li><label for="php">PHP:</label>
+                        <progress id="php" max="100" value="50"> 70% </progress>
+                    </li>
+
+                    <li><label for="jq">JQ:</label>
+                        <progress id="jq" max="100" value="50"> 70% </progress>
+                    </li>
+
+                    <li><label for="js">JS:</label>
+                        <progress id="js" max="100" value="20"> 70% </progress>
+                    </li>
+
+                    <li><label for="lua">lua:</label>
+                        <progress id="lua" max="100" value="30"> 70% </progress>
+                    </li>
+
+                    <li><label for="larawel">Larawel:</label>
+                        <progress id="larawel" max="100" value="20"> 70% </progress>
+                    </li>
+
+                    <li><label for="sass">SASS/LASS:</label>
+                        <progress id="sass" max="100" value="40"> 70% </progress>
+                    </li>
+
+
+                </ul>
+            </section>
+
+            <section id="code-example" class="section">
+                <div class="section-title">
+                    <h2>CODE EXAMPLE</h2>
+                </div>
+                <h4>Duplicate Encoder (CODEWARS):</h4>
+                <p><i>The goal of this exercise is to convert a string to a new string where each character in the new
+                        string is "(" if that character appears only once in the original string, or ")" if that
+                        character appears more than once in the original string. Ignore capitalization when determining
+                        if a character is a duplicate.
+                    </i>
+                </p>
+                <pre>
+                    <code>
+                    function duplicateEncode(word){
+                        let str = word.toLowerCase();
+                        let result = '';
+                        for (let i = 0; i < str.length; i++) {
+                            (str.indexOf(str[i]) === str.lastIndexOf(str[i])) ? result += '(' : result += ')';
+                        }
+                        return result;
+                    }
+                    </code>
+                </pre>
+
+                <h4>Invert values (CODEWARS):</h4>
+                <p><i>Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and
+                        the negatives become positives.
+                    </i>
                 </p>
 
-                <p>In 2016, I was selected for an internship at INTEXSOFT, which I could not complete, because. chose
-                    medicine.
-                    Having been doing freelancing for the past few years, I decided to change direction and move from
-                    practical medicine to programming.</p>
+                <pre>
+                    <code>
+                    function invert(array) {
+                        let resultArray = [];
+                        for (let i = 0; i < array.length; i++) {
+                            (array[i] > 0) ? resultArray[i] = array[i] * -1 : resultArray[i] = array[i] * -1;
+                        }
+                        return resultArray;
+                    }
+                    </code>
+                </pre>
 
-                <p>I hope that my ability to absorb large amounts of information will help me become a good Frontend
-                    developer.</p>
-            </div>
-            <div id="skills">
+                <h4>Abbreviate a Two Word Name (CODEWARS):</h4>
+                <p><i>Write a function to convert a name into initials. This kata strictly takes two words with one
+                        space in between them. The output should be two capital letters with a dot separating them.
+                    </i>
+                </p>
+
+                <pre>
+                    <code>
+                    function abbrevName(name){
+                        let nameArray = name.trim().split(' ');
+                        let initialsArray = [];
+                        for (i = 0; i < nameArray.length; i++) {
+                            initialsArray[i] = nameArray[i][0];
+                        }
+                        let result = initialsArray.join('.').toUpperCase();
+                        return result;
+                    }
+                    </code>
+                </pre>
+            </section>
+
+            <section id="education-and-couses" class="section">
+                <div class="section-title">
+                    <h2>EDUCATION AND COURSES</h2>
+                </div>
                 <p>
-                    * HTML----------- 5/10
-                    * CSS------------ 6/10
-                    * BOOTSTRAP------ 6/10
-                    * PHP------------ 5/10
-                    * JQ------------- 5/10
-                    * JS------------- 2/10
-                    * lua------------ 3/10
-                    * Larawel-------- 2/10
-                    * SASS/LASS------ 4/10
+                    1. Internship PHP developer, IntexSoft 2016 <br>
+                    2. Front End Developer, TeachMeSkills. Offline (start jule 2022)<br>
+                    3. JS, CSS, HTML, Git video courses on YouTube<br>
+                    4. [HTML academy](https://htmlacademy.ru/courses)<br>
+                    5. [Codecademy](https://www.codecademy.com/learn/learn-html)<br>
+                    6. \[Udemy] The Complete JavaScript Course + React 2021 (online)<br>
+                    7. \[WebForMySelf] Bootstrap Framework, Responsive Layout Practice from A to Z (online)<br>
+                    8. Laravel framework. Zero to Pro (online)<br>
+                    9. I learn Front-End Development in **RSSchool**! JS/FE Pre-School 2022Q2<br>
+                    10. Grodno State Medical University - _cardiovascular surgeon_<br>
                 </p>
-            </div>
-            <div id="code-example">
+            </section>
 
-            </div>
-            <div id="education-and-couses">
+            <section id="languages" class="section">
+                <div class="section-title">
+                    <h2>LANGUAGES</h2>
+                    <span>
+                        Russian - native speaker
+                        English - elementary
+                    </span>
+                </div>
+            </section>
 
-            </div>
-            <div id="languages">
-
-            </div>
         </div>
-    </div>
-    <div class="footer">
+    </main>
+    <footer class="footer footer-wrap section">
         <div class="container">
-            <div class="github">
-                <a href="https://github.com/Viruss-git">GitHub</a>
-            </div>
-            <div class="rss-logotype">
-                <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="150"
-                        alt="RSS"></a>
+            <div class="row">
+                <div class="col-3">
+                    <div class="github">
+                        <a href="https://github.com/Viruss-git">GitHub</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rss-logotype">
+                        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg"
+                                alt="avatar" width="150"></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>

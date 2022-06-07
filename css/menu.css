@@ -1,7 +1,6 @@
 /* TOP MENU*/
 .navigation-fixed-top {
-    background-color: rgba(64, 64, 64, 0.3);
-    border-bottom: 1px solid Maroon;
+    background-color: rgba(29, 38, 45, 0.6);
     position: fixed;
     right: 0;
     left: 0;
@@ -43,3 +42,19 @@ li.item-nav {
 .navbar a:hover {
     text-decoration: underline;
 }
+
+/**/
+.border-wrap {
+    text-align:center;
+    background:
+      linear-gradient(
+        to left, 
+        rgba(92,7,52,1) 0%,
+        rgba(255,93,177,1) 47%,
+        rgba(83,0,30,1) 100%
+      )
+      left 
+      bottom  
+      no-repeat; 
+    background-size: 100% 1px;
+  }
