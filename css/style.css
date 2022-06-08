@@ -10,6 +10,10 @@ body {
 
 }
 
+.main {
+  padding: 0px 15px 0px 15px;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 95px;
@@ -93,12 +97,11 @@ html {
   z-index: 1;
 }
 
-.scroll {
+.mouse-position {
   position: absolute;
-  left: 49%;
-  margin-top: 40%;
-  text-decoration: none;
-  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
 }
 
 .mouse {
@@ -106,7 +109,7 @@ html {
   display: block;
   width: 35px;
   height: 60px;
-  margin: 0 auto 20px;
+  margin: 0 auto 40px;
   box-sizing: border-box;
   border: 3px solid #ffffff;
   border-radius: 23px;
@@ -124,12 +127,18 @@ html {
   border-radius: 50%;
 }
 
+.mouse-position a:hover .mouse-buttom {
+  background: #e7077bf5;
+  top: 30%;
+}
+
 .section-title {
   width: 91%;
-  background-color: AliceBlue;
+  background-color: #F6F8FA;
   border-left: 50px solid #e7077bf5;
-  margin: 10px 0px 30px 0px;
+  margin: 10px 0px 50px 0px;
 }
+
 .section-title h2 {
   height: 29px;
   padding: 10px 0px 40px 20px;
@@ -211,8 +220,12 @@ progress::-webkit-progress-value {
 }
 
 .skils-name {
-  width: 120px;
-  float: left;
+  width: 500px;
+  /*float: left;*/
+}
+
+.skils-percent {
+  float: right;
 }
 
 /* SKILLS BLOCK*/
