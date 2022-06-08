@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="/js/include-html.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navigation-fixed-top">
+            <div class="border-wrap">
+                <div class="container">
+                    <nav class="nav">
+                        <ul class="navbar">
+                            <li class="item-nav"><a href="#home">HOME</a></li>
+                            <li class="item-nav"><a href="#about-me">ABOUT ME</a></li>
+                            <li class="item-nav"><a href="#contacts">CONTACT'S</a></li>
+                            <li class="item-nav"><a href="#skills">SKILLS</a></li>
+                            <li class="item-nav"><a href="#code-example">CODE EXAMPLE</a></li>
+                            <li class="item-nav"><a href="#education-and-couses">EDUCATION AND COURSES</a></li>
+                            <li class="item-nav"><a href="#languages">LANGUAGES</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="home" class="banner-full">
+            <div class="welcome">
+                <div class="typewriter">
+                    <h3>Hi! Welcome to my CV</h3>
+                </div>
+                <div class="typewriter">
+                    <h1>I'm Sergei Marmysh</h1>
+                </div>
+                <div class="typewriter">
+                    <h5>junior front-end developer</h5>
+                </div>
+            </div>
+            <div class="mouse-position">
+                <a class="scroll" href="#about-me">
+                    <div class="mouse">
+                        <div class="mouse-buttom"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+
+            <section id="about-me" class="section section-indent">
+                <div class="section-title">
+                    <h2>ABOUT ME</h2>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="about-me">
+                            I am a practicing cardiac surgeon. Since 2010, I started to get involved in creating
+                            primitive
+                            sites
+                            using only HTML in CSS.
+                            While studying at the medical university, I continued my hobby, and in 2012 I started
+                            learning
+                            PHP.
+
+                            <p>In 2016, I was selected for an internship at INTEXSOFT, which I could not complete,
+                                because chose
+                                medicine.
+                                Having been doing freelancing for the past few years, I decided to change direction and
+                                move
+                                from
+                                practical medicine to programming.</p>
+
+                            <p>I hope that my ability to absorb large amounts of information will help me become a good
+                                Frontend
+                                developer.</p>
+                        </div>
+                    </div>
+                    <div class="col-2 avatar">
+                        <div class="avatar"><img src="assets/img/avatar.png" alt="avatar"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section-indent section-skills">
+                <div class="section-title">
+                    <h2>SKILLS</h2>
+                </div>
+                <ul>
+                    <li>
+                        <div class="skils-name"><label for="html">HTML:</label>
+                            <div class="skils-percent">70%</div>
+                        </div>
+                        <div class="skils-value"><progress id="html" max="100" value="70"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="css">CSS:</label>
+                            <div class="skils-percent">65%</div>
+                        </div>
+                        <div class="skils-value"><progress id="css" max="100" value="65"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="bootstrap">BOOTSTRAP:</label>
+                            <div class="skils-percent">65%</div>
+                        </div>
+                        <div class="skils-value"><progress id="bootstrap" max="100" value="65"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="php">PHP:</label>
+                            <div class="skils-percent">40%</div>
+                        </div>
+                        <div class="skils-value"><progress id="php" max="100" value="40"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="jq">JQ:</label>
+                            <div class="skils-percent">40%</div>
+                        </div>
+                        <div class="skils-value"><progress id="jq" max="100" value="40"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="js">JS:</label>
+                            <div class="skils-percent">35%</div>
+                        </div>
+                        <div class="skils-value"><progress id="js" max="100" value="25"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="git">GIT/GITHUB:</label>
+                            <div class="skils-percent">40%</div>
+                        </div>
+                        <div class="skils-value"><progress id="git" max="100" value="40"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="lua">LUA:</label>
+                            <div class="skils-percent">30%</div>
+                        </div>
+                        <div class="skils-value"><progress id="lua" max="100" value="30"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="larawel">LARAWEL:</label>
+                            <div class="skils-percent">25%</div>
+                        </div>
+                        <div class="skils-value"><progress id="larawel" max="100" value="25"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="sass">SASS/LASS:</label>
+                            <div class="skils-percent">40%</div>
+                        </div>
+                        <div class="skils-value"><progress id="sass" max="100" value="40"></progress></div>
+                    </li>
+
+                    <li>
+                        <div class="skils-name"><label for="photoshop">PHOTOSHOP:</label>
+                            <div class="skils-percent">45%</div>
+                        </div>
+                        <div class="skils-value"><progress id="photoshop" max="100" value="45"></progress></div>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="code-example" class="section-indent section-code-example">
+                <div class="section-title">
+                    <h2>CODE EXAMPLE</h2>
+                </div>
+                <div class="include-codewars"></div>
+            </section>
+
+            <section id="education-and-couses" class="section">
+                <div class="section-title">
+                    <h2>EDUCATION AND COURSES</h2>
+                </div>
+                <p>
+                    1. Internship PHP developer, IntexSoft 2016 <br>
+                    2. Front End Developer, TeachMeSkills. Offline (start jule 2022)<br>
+                    3. JS, CSS, HTML, Git video courses on YouTube<br>
+                    4. [HTML academy](https://htmlacademy.ru/courses)<br>
+                    5. [Codecademy](https://www.codecademy.com/learn/learn-html)<br>
+                    6. \[Udemy] The Complete JavaScript Course + React 2021 (online)<br>
+                    7. \[WebForMySelf] Bootstrap Framework, Responsive Layout Practice from A to Z (online)<br>
+                    8. Laravel framework. Zero to Pro (online)<br>
+                    9. I learn Front-End Development in **RSSchool**! JS/FE Pre-School 2022Q2<br>
+                    10. Grodno State Medical University - _cardiovascular surgeon_<br>
+                </p>
+            </section>
+
+            <section id="languages" class="section">
+                <div class="section-title title-h2">
+                    <h2>LANGUAGES</h2>
+                </div>
+                <span>
+                    Russian - native speaker
+                    English - elementary
+                </span>
+            </section>
+
+            <section id="contacts" class="section">
+                <div class="section-title">
+                    <h2>CONTACT INFORMATION</h2>
+                </div>
+                <ul>
+                    <li>
+                        <div class="skils-name">Phone:</div>
+                        <div class="skils-value">+375 25 971-30-01</div>
+                    </li>
+                    <li>
+                        <div class="skils-name">Discord:</div>
+                        <div class="skils-value">Viruss#6122</div>
+                    </li>
+                    <li>
+                        <div class="skils-name">Telegram:</div>
+                        <div class="skils-value">@Viruss13k</div>
+                    </li>
+                    <li>
+                        <div class="skils-name">E-mail:</div>
+                        <div class="skils-value">MarmyshMD@gmail.com</div>
+                    </li>
+                    <li>
+                        <div class="skils-name"><a
+                                href="https://www.linkedin.com/in/sergei-marmysh-870851232/">[LinkedIn]</a></div>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer footer-wrap section-indent">
+        <div class="container container-footer">
+            <div class="row-footer">
+                <div class="col-3">
+                    <div class="github">
+                        <img src="/assets/img/gitlogo.png" alt="gitlogo" width="50">
+                        <a href="https://github.com/Viruss-git">My GitHub</a>
+                    </div>
+                </div>
+                <div class="col-3">RSS 2022</div>
+                <div class="col-3">
+                    <div class="rss-logotype">
+                        <a href="https://rs.school/js/">
+                            <img src="/assets/img/rs_school_js.png" alt="avatar" width="150">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
