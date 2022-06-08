@@ -124,6 +124,17 @@ html {
   border-radius: 50%;
 }
 
+.section-title {
+  width: 91%;
+  background-color: AliceBlue;
+  border-left: 50px solid #e7077bf5;
+  margin: 10px 0px 30px 0px;
+}
+.section-title h2 {
+  height: 29px;
+  padding: 10px 0px 40px 20px;
+}
+
 /* MAIN BLOCK*/
 
 .main-container {
@@ -172,6 +183,10 @@ html {
   padding-left: 0;
 }
 
+.section-indent li {
+  margin-top: 10px;
+}
+
 label {
   padding-right: 18px;
   font-size: 1rem;
@@ -215,6 +230,10 @@ progress::-webkit-progress-value {
   width: 50%;
 }
 
+.col-3 {
+  width: 33%;
+}
+
 .row {
   display: flex;
   flex-flow: row nowrap;
@@ -246,9 +265,40 @@ progress::-webkit-progress-value {
   height: 80px;
 }
 
+.row-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  color: azure;
+  text-align: center;
+}
+
+.container-footer {
+  margin-top: 30pt;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+}
+
+.github a {
+  padding-left: 10px;
+}
+
 .footer-wrap {
-  background: rgba(29, 38, 45, 0.5);
+  background: #1E232C;
   height: 180px;
+}
+
+.section ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 /*FOOTER*/

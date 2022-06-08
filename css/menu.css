@@ -34,7 +34,8 @@ li.item-nav {
 
 /* URL STYLE */
 
-.navbar a {
+.navbar a,
+.container-footer a {
     text-decoration: none;
     color: azure;
 }
@@ -45,16 +46,11 @@ li.item-nav {
 
 /**/
 .border-wrap {
-    text-align:center;
+    text-align: center;
     background:
-      linear-gradient(
-        to left, 
-        rgb(75, 5, 42) 0%,
-        rgb(252, 55, 157) 50%,
-        rgba(75, 5, 42) 100%
-      )
-      left 
-      bottom  
-      no-repeat; 
+        linear-gradient(to left,
+            rgb(75, 5, 42) 0%,
+            rgb(252, 55, 157) 50%,
+            rgba(75, 5, 42) 100%) left bottom no-repeat;
     background-size: 100% 1px;
-  }
+}
