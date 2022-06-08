@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -11,7 +12,8 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 115px;
+  scroll-padding-top: 95px;
+  /* top scroll */
 }
 
 * {
@@ -124,24 +126,66 @@ html {
 
 /* MAIN BLOCK*/
 
-.section {
-  margin-top: 50px;
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.section {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.section-indent {
+  margin-top: 30px;
+}
+
+.section-skills {
+  width: 50%;
+  /*padding: 1.5rem;*/
+}
+
+@media (max-width: 1020px) {
+  .section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .section-skills {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .progress {
+    border-radius: 8px;
+    width: 200px;
+    height: 12px;
+  }
+}
 
 /* SKILLS BLOCK*/
+.section-indent ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 label {
   padding-right: 18px;
   font-size: 1rem;
+  font-weight: 500;
 }
 
 progress {
-  border-radius: 8px; 
-  width: 250px;
+  border-radius: 8px;
+  width: 500px;
   height: 12px;
 }
 
 progress::-webkit-progress-bar {
+  color: black;
   background-color: rgb(230, 230, 230);
 
 }
@@ -151,6 +195,10 @@ progress::-webkit-progress-value {
 
 }
 
+.skils-name {
+  width: 120px;
+  float: left;
+}
 
 /* SKILLS BLOCK*/
 
@@ -163,22 +211,34 @@ progress::-webkit-progress-value {
   text-align: justify;
 }
 
-.col-3 {
-  width: 33.333%;
-  margin: .5rem;
+.col-2 {
+  width: 50%;
 }
 
 .row {
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
+  /* align-items: center;*/
   align-content: center;
   justify-content: space-between;
 }
 
 /*ABOUT ME*/
 
+/* CODEWARS */
+.section-indent pre {
+  padding: 10px;
+  overflow: auto;
+  font-size: 85%;
+  border-radius: 4px;
+  background-color: #f6f8fa;
+}
 
+.section-code-example {
+  width: 100%;
+}
+
+/* CODEWARS */
 
 
 /*FOOTER*/
