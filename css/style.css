@@ -102,6 +102,7 @@ html {
   min-height: 100vh;
   display: flex;
   align-items: flex-end;
+  padding-bottom: 30px;
 }
 
 .mouse {
@@ -109,7 +110,6 @@ html {
   display: block;
   width: 35px;
   height: 60px;
-  margin: 0 auto 40px;
   box-sizing: border-box;
   border: 3px solid #ffffff;
   border-radius: 23px;
@@ -315,3 +315,16 @@ progress::-webkit-progress-value {
 }
 
 /*FOOTER*/
+
+/* CONTACTS */
+
+.contact-name {
+  width: 15%;
+  float: left;
+}
+
+.contact-value {
+  width: 23.5%;
+}
+
+/* CONTACTS */
