@@ -26,6 +26,7 @@ html {
 
 .container {
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -165,25 +166,6 @@ html {
   /*padding: 1.5rem;*/
 }
 
-@media (max-width: 1020px) {
-  .section {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1020px) {
-  .section-skills {
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .progress {
-    border-radius: 8px;
-    width: 200px;
-    height: 12px;
-  }
-}
 
 /* SKILLS BLOCK*/
 .section-indent ul {
@@ -204,8 +186,8 @@ label {
 
 progress {
   border-radius: 8px;
-  width: 500px;
-  height: 12px;
+  width: 80%;
+  /*height: 12px;*/
 }
 
 progress::-webkit-progress-bar {
@@ -220,7 +202,7 @@ progress::-webkit-progress-value {
 }
 
 .skils-name {
-  width: 500px;
+  width: 80%;
   /*float: left;*/
 }
 
@@ -319,12 +301,35 @@ progress::-webkit-progress-value {
 /* CONTACTS */
 
 .contact-name {
-  width: 15%;
+  width: 120px;
   float: left;
+  font-weight: 600;
 }
 
-.contact-value {
-  width: 23.5%;
+ul.contacts {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
 }
+
+.contacts li  {
+  margin-bottom: 0.5em;
+}
+
+.contacts li a {
+  padding-right: 25px;
+  text-decoration: none;
+  color: #1E232C;
+}
+
 
 /* CONTACTS */
+
+
+/* EDUCATION */
+.education li {
+  font-size: 1em;
+}
+
+/* EDUCATION */

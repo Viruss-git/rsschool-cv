@@ -1,0 +1,33 @@
+/* MOBILE */
+@media (max-width: 1020px) {
+    .section {
+        width: 100%;
+    }
+
+    .section-skills {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .progress {
+        border-radius: 8px;
+        width: 200px;
+        height: 12px;
+    }
+
+    .progress {
+        border-radius: 8px;
+        width: 200px;
+        height: 12px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .typewriter h1 {
+        font-size: 2em;
+    }
+}
