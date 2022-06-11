@@ -26,13 +26,14 @@ html {
 
 .container {
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
 
 /* MAIN BLOCK*/
 .banner-full {
-  background-image: url(../assets/img/mountains.png);
+  background-image: url(../assets/img/mountains.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -102,6 +103,7 @@ html {
   min-height: 100vh;
   display: flex;
   align-items: flex-end;
+  padding-bottom: 30px;
 }
 
 .mouse {
@@ -109,7 +111,6 @@ html {
   display: block;
   width: 35px;
   height: 60px;
-  margin: 0 auto 40px;
   box-sizing: border-box;
   border: 3px solid #ffffff;
   border-radius: 23px;
@@ -165,25 +166,6 @@ html {
   /*padding: 1.5rem;*/
 }
 
-@media (max-width: 1020px) {
-  .section {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1020px) {
-  .section-skills {
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .progress {
-    border-radius: 8px;
-    width: 200px;
-    height: 12px;
-  }
-}
 
 /* SKILLS BLOCK*/
 .section-indent ul {
@@ -204,8 +186,8 @@ label {
 
 progress {
   border-radius: 8px;
-  width: 500px;
-  height: 12px;
+  width: 80%;
+  /*height: 12px;*/
 }
 
 progress::-webkit-progress-bar {
@@ -220,7 +202,7 @@ progress::-webkit-progress-value {
 }
 
 .skils-name {
-  width: 500px;
+  width: 80%;
   /*float: left;*/
 }
 
@@ -315,3 +297,39 @@ progress::-webkit-progress-value {
 }
 
 /*FOOTER*/
+
+/* CONTACTS */
+
+.contact-name {
+  width: 120px;
+  float: left;
+  font-weight: 600;
+}
+
+ul.contacts {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.contacts li  {
+  margin-bottom: 0.5em;
+}
+
+.contacts li a {
+  padding-right: 25px;
+  text-decoration: none;
+  color: #1E232C;
+}
+
+
+/* CONTACTS */
+
+
+/* EDUCATION */
+.education li {
+  font-size: 1em;
+}
+
+/* EDUCATION */
