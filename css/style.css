@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-weight: 300;
 
 }
 
@@ -134,7 +135,7 @@ html {
 }
 
 .section-title {
-  width: 91%;
+  width: 95%;
   background-color: #F6F8FA;
   border-left: 50px solid #e7077bf5;
   margin: 10px 0px 50px 0px;
@@ -313,7 +314,7 @@ ul.contacts {
   display: flex;
 }
 
-.contacts li  {
+.contacts li {
   margin-bottom: 0.5em;
 }
 
@@ -332,4 +333,20 @@ ul.contacts {
   font-size: 1em;
 }
 
+.education a,
+.projects a {
+  text-decoration: none;
+  color: #1E232C;
+  font-weight: 500;
+}
+
+.education a:hover,
+.projects a:hover {
+  text-decoration: underline;
+}
+
 /* EDUCATION */
+
+/* PROJECTS */
+
+/* PROJECTS */
